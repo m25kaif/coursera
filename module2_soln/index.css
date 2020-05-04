@@ -5,6 +5,7 @@
   h1 {
     text-align: center;
     font-size: 48px;
+    color: brown;
   }
   
   .row {
@@ -12,7 +13,7 @@
     flex-wrap: wrap;
   }
   
-  .title-box {
+  .titlebox {
     display: inline-block;
     position: absolute;
     right: 0;
@@ -23,23 +24,23 @@
     font-size: 16px;
   }
   
-  .title-box-01 {
+  .titlebox1 {
     background-color: rgb(255, 60, 0);
     color: black;
   }
   
-  .title-box-02 {
-    background-color: rgb(224, 12, 196);
+  .titlebox2 {
+    background-color: blue;
     color: rgba(0, 0, 0, 0.623);
   }
   
-  .title-box-03 {
-    background-color: rgb(53, 30, 255);
+  .titlebox3 {
+    background-color:orange;
     color: blanchedalmond;
     display:block;
   }
   
-  .text-box {
+  .text_box {
     margin-top: 62px;
     padding-right: 10px;
     padding-left: 10px;
@@ -57,7 +58,7 @@
   
   /* Desktop View */
   @media (min-width: 992px) {
-    .col-lg-4 {
+    .col_1 {
       width: 32%;
       margin-left: 0.66%;
       margin-right: 0.66%;
@@ -66,20 +67,20 @@
   
   /* Tablet View */
   @media (max-width: 991px) and (min-width: 786px) {
-    .col-md-6 {
+    .col_2 {
       width: 49%;
       margin-left: 0.5%;
       margin-right: 0.5%;
     }
   
-    .col-md-12 {
+    .col_3{
       width: 100%;
     }
   }  
   
   /* Mobile View */
   @media (max-width: 767px) {
-    .col-sm-12 {
+    .col_3 {
       width: 100%;
     }
   }  
