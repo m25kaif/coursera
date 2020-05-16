@@ -9,8 +9,8 @@
   }
   
   .row {
-    display: flex;
-    flex-wrap: wrap;
+    display:flex
+    flex-wrap: wrap;     
   }
   
   .titlebox {
@@ -71,10 +71,6 @@
       width: 49%;
       margin-left: 0.5%;
       margin-right: 0.5%;
-    }
-  
-    .col_3{
-      width: 100%;
     }
   }  
   
